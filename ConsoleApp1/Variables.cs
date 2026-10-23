@@ -1,4 +1,6 @@
-﻿byte a1 = 4;
+﻿using System.Globalization;
+
+byte a1 = 4;
 sbyte a2 = 5;
 short a3 = 6;
 ushort a4 = 7;
@@ -18,3 +20,9 @@ bool a14 = true;
 
 object a15 = true; // Може бути будь яким типом, не міняєм на літу
 dynamic a16 = true; // Може бути будь яким типом, Міняєм на літу
+
+string sd = Console.ReadLine();
+
+Console.WriteLine(sd);
+
+
